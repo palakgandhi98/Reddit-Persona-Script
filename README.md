@@ -22,11 +22,11 @@ This script takes a Reddit profile URL as input, fetches the user's posts and co
 ## Installation
 
 1. Install the necessary dependencies:
-   ```bash
+```bash
 pip install praw requests
 ```
 2. Make sure you have a `config.py` file in the same directory with the following structure:
-   ```python
+```python
 username = "your_reddit_username"
 password = "your_reddit_password"
 client_id = "your_reddit_client_id"
@@ -38,7 +38,7 @@ GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
 ## Usage
 
 1. Run the script:
-   ```bash
+```bash
 python reedit.py
 ```
 2. Enter a Reddit profile URL when prompted.
